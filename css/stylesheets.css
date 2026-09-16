@@ -1,0 +1,36 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* Index Html */
+header{
+background-color: #5b4fe8;
+padding: 15px 30px;
+display: flex;
+align-items: center;
+}
+.logo{
+    width: 40px;
+}
+.headernav{
+    margin-left: 40px;
+}
+.headernav ul{
+    display: flex;
+}
+.headernav a{
+    display: flex;
+    color: white;
+    margin-right: 20px;
+    align-items: center;
+}
+.sellit{
+    color: white;
+}
+.formsearch{
+    justify-content:flex-end;
+}
