@@ -60,7 +60,7 @@ main{
     padding: 30px;
 }
 aside{
-    width:;
+    width:100px;
     background-color:gainsboro;
     margin-right: 30px;
 }
@@ -152,4 +152,46 @@ footer{
 }
 footer p{
     margin: 5px;
+}
+.login{
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    background-color: white
+}
+.formulario-login {
+    border: 1px solid black;
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    background-color: white;
+}
+.formulario {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.formulario{
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+}
+.input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid gray;
+    color: black;
+}
+.boton-login {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.no-cuenta{
+    margin-top: 20px;
+    color: black;
+    text-decoration: underline;
 }
