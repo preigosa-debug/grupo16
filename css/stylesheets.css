@@ -64,18 +64,19 @@ aside{
     background-color:gainsboro;
     margin-right: 30px;
 }
-aside h2{
+.asidenav h2{
     color:#06004c;
+    margin-right: 30px;
 }
-aside ul{
+.asidenav ul{
     list-style: none;
     padding: 0;
 }
-aside li{
+.asidenav li{
     margin-bottom: 10px;
     padding: 20px;
 }
-aside a{
+.asidenav a{
     color:grey;
 }
 .slogan{
@@ -109,6 +110,9 @@ aside a{
     color:#06004c;
     font-size: 28px;
 }
+.aleatorios img, .masvendidos img{
+    background-color: lightgray;
+}
 .producto{
     display: inline-block;
     width: 200px;
@@ -119,6 +123,25 @@ aside a{
 .producto img{
     width: 100%;
     height:160px;
+}
+.producto h3{
+    color: #06004c;
+    font-size: 18px
+}
+.descripcion{
+    font-size: 14px;
+}
+.precio{    
+    font-size: 17px;
+}
+.producto a{
+    display: block;
+    color: white;
+    background-color: #4b35b8;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 footer{
     background-color: #4b35b8;

@@ -9,7 +9,8 @@
 <body>
     <header>
         <a href="./index.html"><img src="./img/logo de sell it.png" alt="Logo" class="logo"></a>
-        <nav>
+        <span class="sellit"><b>Sell It</b></span>
+        <nav class="headernav">
             <ul>
                <li><a href="./index.html">Home</a></li>
                  <li><a href="./register.html">Registro</a></li>
@@ -22,17 +23,18 @@
         </form>
     </header>
     <main>
-        <div>
+        <div class="formulario">
             <h1>Crea una cuenta</h1>
-            <form action="./login.html" method="get"></form>
+            <form action="./login.html" method="get">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="Ingresa tu email" required>
             <label for="password">Contraseña:</label>
             <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
             <label for="confirm-password">Confirmar Contraseña:</label>
             <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirma tu contraseña" required>
-            <button type="submit">Registrarse</button>
-
+            <button type="submit">Registrarme</button>
+            <a href="./login.html">Ya tengo una cuenta</a>
+            </form>
         </div>
     </main>
     <footer>
