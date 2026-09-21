@@ -21,7 +21,7 @@ header a{
     width: 40px;
 }
 .headernav{
-    margin-left: 40px;
+    margin-left: 200px;
 }
 .headernav ul{
     display: flex;
@@ -40,6 +40,7 @@ header a{
 .sellit{
     color: white;
     font-size: 40px;
+    margin-left: 10px;
 }
 .formsearch{
     margin-left: auto;
@@ -57,12 +58,14 @@ header a{
 }
 main{
     display: flex;
-    padding: 30px;
+    padding: 25px 30px;
+    max-width: 1600px;
 }
 aside{
-    width:100px;
+    width: 280px;
     background-color:gainsboro;
     margin-right: 30px;
+    margin-left: 30px;
 }
 .asidenav h2{
     color:#06004c;
@@ -82,15 +85,20 @@ aside{
 .slogan{
     margin-bottom: 30px;
     padding: 40px;
-    background-color: #211b3d;
     color: white;
+    border-radius: 10px;
+    background-image: url("../img/slogan.png");
+    background-size: cover;
+    background-position: center;
 }
 .slogan h1{
     font-size: 35px;
     margin-top: 0px;
+    margin-bottom: 5px;
 }
 .slogan p{
     font-size: 18px;
+    margin-bottom: 15px;
 }
 .slogan a{
     display: inline-block;
@@ -105,24 +113,32 @@ aside{
 }
 .aleatorios, .masvendidos{
     margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .aleatorios h2, .masvendidos h2{
     color:#06004c;
     font-size: 28px;
+    margin-bottom: 15px;
 }
 .aleatorios img, .masvendidos img{
     background-color: lightgray;
 }
 .producto{
     display: inline-block;
-    width: 200px;
+    width: 17.5%;
     padding: 15px;
     margin: 10px;
     border-radius: 9px;
+    border: 1px solid;
+    
 }
 .producto img{
     width: 100%;
     height:160px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 .producto h3{
     color: #06004c;
@@ -149,17 +165,19 @@ footer{
     display: flex;
     padding: 20px;
     text-align: center;
+    justify-content: center;
 }
 footer p{
-    margin: 5px;
+    margin: 15px;
+    justify-content: center;
 }
-.login{
+.login, .register{
     display: flex;
     justify-content: center; 
     align-items: center;   
     background-color: white;
 }
-.formulario-login {
+.formulario-login, .formulario-register{
     border: 1px solid black;
     padding: 30px;
     width: 100%;
@@ -194,4 +212,8 @@ footer p{
     margin-top: 20px;
     color: black;
     text-decoration: underline;
+}
+.masvendidoscat{
+        color:#06004c;
+    font-size: 28px;
 }
