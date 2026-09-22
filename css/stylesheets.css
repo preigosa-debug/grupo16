@@ -3,6 +3,10 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+ul{
+    list-style: none;
+    padding: 0px;
+}
 a{
     text-decoration: none;
 }
@@ -49,12 +53,14 @@ header a{
     width: 220px;
     padding: 10px;
     border-radius: 5px 0 0 5px;
+    border: 1px solid transparent;
 }
 .formsearch button{
     padding: 10px;
     border-radius: 0 5px 5px 0;
     color: white;
     background-color: #5b4fe8;
+    border: 1px solid lightgray;
 }
 main{
     display: flex;
@@ -67,13 +73,11 @@ aside{
     margin-right: 30px;
     margin-left: 30px;
 }
-.asidenav h2{
+aside h2{
     color:#06004c;
-    margin-right: 30px;
-}
-.asidenav ul{
-    list-style: none;
-    padding: 0;
+    margin-left: 15px;
+    margin-right: 0px;
+    margin-top: 10px;
 }
 .asidenav li{
     margin-bottom: 10px;
@@ -176,6 +180,7 @@ footer p{
     justify-content: center; 
     align-items: center;   
     background-color: white;
+    flex-direction: column;
 }
 .formulario-login, .formulario-register{
     border: 1px solid black;
@@ -184,6 +189,10 @@ footer p{
     max-width: 350px;
     text-align: center;
     background-color: white;
+}
+.main-register{
+    display: flex;
+    justify-items: center;
 }
 .formulario {
     margin-bottom: 15px;
@@ -207,11 +216,6 @@ footer p{
     margin-top: 10px;
     border: 1px solid black;
     font-weight: bold;
-}
-.no-cuenta{
-    margin-top: 20px;
-    color: black;
-    text-decoration: underline;
 }
 .masvendidoscat{
         color:#06004c;
