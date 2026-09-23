@@ -262,3 +262,25 @@ footer p{
     color: black;
     font-weight: bold;
 }
+
+.marcax{
+
+}
+.infoproductox{
+    
+}
+
+.rating{
+    font-weight: bold;
+}
+
+.fecha{
+    font-weight: bold ;
+}
+
+.review{
+    margin: 30px;
+    padding: 10px;
+    border: double;
+    border-color:#4b35b8 ;
+}
