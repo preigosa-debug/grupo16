@@ -131,11 +131,12 @@ aside h2{
 }
 .producto{
     display: inline-block;
-    width: 17.5%;
-    padding: 15px;
+    width: 20%;
+    padding: 10px;
     margin: 10px;
     border-radius: 9px;
     border: 1px solid;
+    
     
 }
 .producto img{
@@ -226,4 +227,38 @@ footer p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.zapatillasx{
+    width: 50%;
+    height: 600px;
+    padding: 12px;
+    margin: 30px;
+}
+.preciox{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+   
+}
+
+.titulozapas{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+}
+
+.resutladossearch{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.precio{
+    color: black;
+    font-weight: bold;
 }
