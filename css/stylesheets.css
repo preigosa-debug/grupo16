@@ -321,15 +321,11 @@ footer p{
     border-color:#4b35b8 ;
 }
 .productox{
-    border: 1px solid;
-    border-radius: 10px;
     padding: 25px;
     margin: 0 auto;
     max-width: 1100px;
 }
 .zapatillasx{
-    border: 1px solid;
     width: 45%;
-    height: 400px;
-    border-radius: 10px;
+    height: 500px;
 }
