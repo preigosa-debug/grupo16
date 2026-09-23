@@ -227,20 +227,21 @@ footer p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+
 }
 
 .zapatillasx{
-    width: 50%;
-    height: 300px;
-    padding: 12px;
-    border-radius: 10px;
+    width: 70%;
+    height: 700px;
+    padding: 10px;
     margin-bottom: 20px;
 }
 .preciox{
     color: black;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: bold;
+    margin: 10px;
+    
    
 }
 
@@ -301,5 +302,4 @@ footer p{
     border: double;
     border-color:#4b35b8 ;
 }
-
 
