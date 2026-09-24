@@ -80,8 +80,8 @@ aside h2{
     margin-top: 10px;
 }
 .asidenav li{
-    margin-bottom: 10px;
-    padding: 20px;
+    margin-bottom: 5px;
+    padding: 7px 20px;
 }
 .asidenav a{
     color:grey;
@@ -152,9 +152,7 @@ aside h2{
 .descripcion{
     font-size: 14px;
 }
-.precio{    
-    font-size: 17px;
-}
+
 .producto a{
     display: block;
     color: white;
@@ -177,13 +175,14 @@ footer p{
     justify-content: center;
 }
 .login, .register{
-    display: flex;
-    justify-content: center; 
-    align-items: center;   
+    display: center;
     background-color: white;
-    flex-direction: column;
+    padding: 8px;
+    margin bottom: 20px;
+    
 }
 .formulario-login, .formulario-register{
+    margin: auto;
     border: 1px solid black;
     padding: 30px;
     width: 100%;
@@ -231,11 +230,14 @@ footer p{
 }
 
 .zapatillasx{
-    width: 70%;
-    height: 700px;
+    width: 60%;
+    height: 600px;
     padding: 10px;
     margin-bottom: 20px;
 }
+
+
+
 .preciox{
     color: black;
     font-size: 27px;
@@ -254,14 +256,17 @@ footer p{
 
 .resutladossearch{
     display: flex;
-    flex-wrap: no wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-start;  
 }
 .precio{
     color: black;
     font-weight: bold;
+    font-size: 17px;
+
 }
+
 
 .marcax, .stock, .categoria{
     margin-bottom: 8px;
@@ -290,13 +295,8 @@ footer p{
     font-size: 28px;
     margin-bottom: 15px;
 }
-.review{
-    border: 1px solid #d2ccf5;
-    border-radius: 8px ;
-    padding: 15px;
-    margin-bottom: 15px;
-    background-color: #faf9ff;
-}
+
+
 .rating{
     color: #4b35b8;
     margin-bottom: 8px;
@@ -314,18 +314,15 @@ footer p{
     font-weight: bold ;
 }
 
-.review{
-    margin: 30px;
-    padding: 10px;
-    border: 2px solid;
-    border-color:#4b35b8 ;
-}
+
 .productox{
     padding: 25px;
     margin: 0 auto;
     max-width: 1100px;
 }
-.zapatillasx{
-    width: 45%;
-    height: 500px;
+.review{
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid;
+    border-color:#4b35b8 ;
 }
