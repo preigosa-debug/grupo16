@@ -24,6 +24,9 @@ header a{
 .logo{
     width: 40px;
 }
+.imglogo{
+    display: flex;
+}
 .headernav{
     margin-left: 200px;
 }
@@ -178,6 +181,7 @@ footer p{
     background-color: white;
     padding: 8px;
     margin-bottom: 20px;
+    height: 500px;
     
 }
 .formulario-login, .formulario-register{
@@ -330,26 +334,26 @@ body{
     background-color: white;
 }
 
+/* CELULAR */
 
-@media (max-width: 1024px) {
+@media (max-width: 480px) {
 
-}
-
-@media (max-width: 768px) {
-
-
-   
     header{
         padding: 15px;
         height: 10%;
-    }
-
-    .asidenav, .headernav{
-      
         width: 100%;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
     }
+    .headernav{
+        align-self: center;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
     .producto{
         flex-wrap: nowrap;
         width: 100%;
@@ -358,22 +362,44 @@ body{
     }
 
     main{
-        width: 100%;
+        width: 480px;
         padding: 15px;
         flex-direction:column;
         display: flex;
         flex-wrap: wrap;
-
-    
+    }
+    aside{
+        width: 100%;
+        margin-left: 0;
     }
 
     .asidenav{
-        max-width: 50%;
+        max-width: 100%;
     }
 
-    aside{
-        max-width: 50%;
+    aside ul{
+        display: flex;
+        max-width: 100%;
         flex-direction: row;
+        flex-wrap: wrap;
+    }
+    aside li{
+        background-color: #5b4fe8;
+        border-radius: 8px;
+        margin: 2px;
+        color: white;
+    }
+    .asidenav a{
+        color: white;
+    }
+    .contenedor{
+        width: 450px;
+    }
+    .slogan{
+        display: none;
+    }
+    .producto img{
+        height: 300px;
     }
 
     .formsearch{
@@ -391,13 +417,4 @@ body{
         height: 50%;
         width: 50%;
     }
-        
-    
-
-    
-    
- 
-    
-
-    
 }
