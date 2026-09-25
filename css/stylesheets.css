@@ -116,7 +116,7 @@ aside h2{
     color: white;
 }
 .contenedor{
-    width: 80%;
+    width: 1100px;
 }
 .aleatorios, .masvendidos{
     margin-bottom: 40px;
@@ -134,13 +134,12 @@ aside h2{
 }
 .producto{
     display: inline-block;
-    width: 20%;
+    width: 200px;
     padding: 10px;
     margin: 10px;
     border-radius: 9px;
     border: 1px solid;
-    
-    
+    align-items: flex-start;
 }
 .producto img{
     width: 100%;
@@ -173,9 +172,12 @@ footer{
     text-align: center;
     justify-content: center;
 }
-footer p{
+
+footer ul{
+    display: flex;
+}
+footer li{
     margin: 15px;
-    justify-content: center;
 }
 .login, .register{
     background-color: white;
@@ -262,6 +264,14 @@ footer p{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-start;  
+}
+.leyenda-search, .titulo-search{
+    margin-bottom: 20px;
+    display: flex;
+    display: inline-block;
+    color: #4b35b8;
+    font-weight: bold;
+    padding: 6px 10px;
 }
 .precio{
     color: black;
