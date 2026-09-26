@@ -116,7 +116,7 @@ aside h2{
     color: white;
 }
 .contenedor{
-    width: 1100px;
+    width: 2000px;
 }
 .aleatorios, .masvendidos{
     margin-bottom: 40px;
@@ -134,15 +134,15 @@ aside h2{
 }
 .producto{
     display: inline-block;
-    width: 200px;
+    width: 20%;
     padding: 10px;
     margin: 10px;
     border-radius: 9px;
-    border: 1px solid;
-    align-items: flex-start;
+    border: 1px solid;    
+    
 }
 .producto img{
-    width: 100%;
+    width: 230px;
     height:160px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -164,6 +164,7 @@ aside h2{
     margin-top: 10px;
     border-radius: 5px;
 }
+
 footer{
     background-color: #4b35b8;
     color:white;
@@ -171,13 +172,12 @@ footer{
     padding: 20px;
     text-align: center;
     justify-content: center;
-}
+    }
 
-footer ul{
-    display: flex;
-}
-footer li{
+footer p{
     margin: 15px;
+    justify-content: center;
+
 }
 .login, .register{
     background-color: white;
@@ -190,7 +190,7 @@ footer li{
     margin: auto;
     border: 1px solid black;
     padding: 30px;
-    width: 100%;
+    width: 600px;
     max-width: 350px;
     text-align: center;
     background-color: white;
@@ -210,13 +210,13 @@ footer li{
     font-weight: bold;
 }
 .input {
-    width: 100%;
+    width: 300px;
     padding: 8px;
     border: 1px solid gray;
     color: black;
 }
 .boton-login {
-    width: 100%;
+    width: 300px;
     padding: 10px;
     margin-top: 10px;
     border: 1px solid black;
@@ -235,7 +235,7 @@ footer li{
 }
 
 .zapatillasx{
-    width: 60%;
+    width: 650px;
     height: 600px;
     padding: 10px;
     margin-bottom: 20px;
@@ -265,14 +265,6 @@ footer li{
     justify-content: space-around;
     align-items: flex-start;  
 }
-.leyenda-search, .titulo-search{
-    margin-bottom: 20px;
-    display: flex;
-    display: inline-block;
-    color: #4b35b8;
-    font-weight: bold;
-    padding: 6px 10px;
-}
 .precio{
     color: black;
     font-weight: bold;
@@ -281,9 +273,10 @@ footer li{
 }
 
 
-.marcax, .stock, .categoria{
-    margin-bottom: 8px;
+.marcax, .stock, .categoria, .tagss {
+    font-weight: bold;
 }
+
 
 .listadetags{
     list-style: none;
@@ -325,6 +318,7 @@ footer li{
 }
 .fecha{
     font-weight: bold ;
+    font-family:italic;
 }
 
 
@@ -351,7 +345,7 @@ body{
     header{
         padding: 15px;
         height: 10%;
-        width: 100%;
+        width: 480px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -365,11 +359,24 @@ body{
     }
 
     .producto{
-        flex-wrap: nowrap;
-        width: 100%;
-        padding: 15px;
+        flex-wrap: wrap;
+        display: inlin;
+        width: 500px;
+        padding: 10px;
+        width: 350px;
 
     }
+
+    
+    .producto img{
+        width: 300px;
+        height:160px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+       
+    }
+
+    
 
     main{
         width: 480px;
@@ -408,9 +415,7 @@ body{
     .slogan{
         display: none;
     }
-    .producto img{
-        height: 300px;
-    }
+    
 
     .formsearch{
         margin: auto;
@@ -419,12 +424,11 @@ body{
 
     .formulario-login, .formulario-register{
         margin: 10px;
-        height: 50%;
-        width: 70%; 
+        height: 250px;
     }
 
-    .nav ul{
-        height: 50%;
-        width: 50%;
+  
+    .zapatillasx{
+        width: 350px;
     }
 }
