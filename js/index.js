@@ -48,5 +48,18 @@ fetch('https://dummyjson.com/products/category/vehicle')
         console.log('El error es: ' + error);
     });
 
-
-    
+fetch('https://dummyjson.com/products/category-list')
+.then(function(response) {
+  return response.json()
+})
+.then(function(data) {
+  console.log(data);
+  let productos = data.products;
+  for (let i = 0; i < productos.length; i ++){
+    asidenav.innerHTML +=
+    <li><a href="./category.html">Beauty</a></li>
+  }
+})
+.catch(function(error) {
+  console.log("Error: " + error);
+})
