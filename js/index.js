@@ -1,6 +1,6 @@
 let aleatorios = document.querySelector('.aleatorios');
 let masvendidos = document.querySelector('.masvendidos')
-let asidenav = document.querySelector('.asidenav')
+let lista_categorias = document.querySelector('.lista-categorias')
 
 fetch('https://dummyjson.com/products/category/smartphones')
     .then(function(response){
@@ -54,11 +54,11 @@ fetch('https://dummyjson.com/products/category-list')
 })
 .then(function(data) {
   console.log(data);
-  let productos = data.products;
-  for (let i = 0; i < productos.length; i ++){
-    asidenav.innerHTML +=
-    <li><a href="./category.html">Beauty</a></li>
+  for (let i = 0; i < data.length; i ++){
+    lista_categorias.innerHTML += `
+    <li><a href="./category.html?categoria=${data[i]}">${data[i]}</a></li>`
   }
+ 
 })
 .catch(function(error) {
   console.log("Error: " + error);
