@@ -1,5 +1,9 @@
 let lista_categorias = document.querySelector('.lista-categorias')
 
+
+
+
+/* ASIDE */
 fetch('https://dummyjson.com/products/category-list')
 .then(function(response) {
   return response.json()

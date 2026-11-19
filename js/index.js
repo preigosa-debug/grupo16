@@ -48,6 +48,9 @@ fetch('https://dummyjson.com/products/category/vehicle')
         console.log('El error es: ' + error);
     });
 
+
+/* ASIDE */
+
 fetch('https://dummyjson.com/products/category-list')
 .then(function(response) {
   return response.json()

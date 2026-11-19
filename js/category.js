@@ -33,6 +33,9 @@ fetch(`https://dummyjson.com/products/category/${categoria}`)
   console.log("Error: " + error);
 })
 
+
+/* ASIDE */
+
 fetch('https://dummyjson.com/products/category-list')
 .then(function(response) {
   return response.json()
