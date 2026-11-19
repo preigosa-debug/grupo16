@@ -151,8 +151,8 @@ aside h2{
     color: #06004c;
     font-size: 18px;
 }
-.descripcion{
-    font-size: 14px;
+.producto-descripcion{
+    font-size: 18px;
 }
 
 .producto a{
@@ -173,11 +173,12 @@ footer{
     text-align: center;
     justify-content: center;
     }
+footer ul{
+    display: flex;
+}
 
-footer p{
-    margin: 15px;
-    justify-content: center;
-
+footer li{
+    margin: 10px;
 }
 .login, .register{
     background-color: white;
@@ -234,7 +235,7 @@ footer p{
 
 }
 
-.zapatillasx{
+.producto-foto{
     width: 650px;
     height: 600px;
     padding: 10px;
@@ -243,7 +244,7 @@ footer p{
 
 
 
-.preciox{
+.producto-precio{
     color: black;
     font-size: 27px;
     font-weight: bold;
@@ -252,7 +253,7 @@ footer p{
    
 }
 
-.titulozapas{
+.producto-nombre{
     color: black;
     font-weight: bold;
     font-size: 40px;
@@ -273,17 +274,17 @@ footer p{
 }
 
 
-.marcax, .stock, .categoria, .tagss {
+.producto-marca, .producto-stock, .producto-categoria, .tagss {
     font-weight: bold;
 }
 
 
-.listadetags{
+.producto-tags{
     list-style: none;
     padding:0px;
     margin-top: 10px;
 }
-.listadetags li{
+.producto-tags li{
     background-color: #eeeaff;
     color: #4b35b8;
     display: inline-block;
@@ -327,7 +328,7 @@ footer p{
     margin: 0 auto;
     max-width: 1100px;
 }
-.review{
+.producto-review{
     margin: 30px;
     padding: 10px;
     border: 2px solid;
