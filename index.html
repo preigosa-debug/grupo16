@@ -16,8 +16,10 @@
         <nav class="headernav">
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./register.html">Registro</a></li>
-                <li><a href="./login.html">Log in</a></li>
+                <li class="item-registro"><a href="./register.html">Registro</a></li>
+                <li class="item-login"><a href="./login.html">Log in</a></li>
+                <li class="item-bienvenida" hidden><span id="bienvenida"></span></li>
+                <li class="item-logout" hidden><a href="#" id="logout">logout</a></li>
             </ul>
         </nav>
         <form class="formsearch" action="./search.html" method="get">
@@ -65,6 +67,7 @@
             <li>Pedro Reigosa</li>
         </ul>
     </footer>
+    <script src="./js/saludo.js"></script>
     <script src="./js/index.js"></script>
 </body>
 </html>
