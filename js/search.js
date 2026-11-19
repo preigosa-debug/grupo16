@@ -1,8 +1,10 @@
 let lista_categorias = document.querySelector('.lista-categorias')
-
+let queryString = location.search;
+let queryStringObj = new URLSearchParams(queryString);
+let categoria = queryStringObj.get('categoria')
 
 /* ASIDE */
-fetch('https://dummyjson.com/products/category-list')
+fetch(`https://dummyjson.com/products/${categoria}`)
 .then(function(response) {
   return response.json()
 })
