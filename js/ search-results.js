@@ -4,6 +4,7 @@ let busqueda = queryStringObj.get('search');
 
 let resultados = document.querySelector('.resultadossearch');
 let titulo = document.querySelector('.resultadosearchx');
+let lista_categorias = document.querySelector('.lista-categorias')
 
 
 
