@@ -368,6 +368,7 @@ body{
 
     
     .producto img{
+        display: block;
         width: 300px;
         height:160px;
         margin-bottom: 10px;
