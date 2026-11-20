@@ -9,8 +9,8 @@ if (emailGuardado) {
 
     textoBienvenida.innerText = "Bienvenido: " + emailGuardado;
 
-    itemBienvenida.hidden = false;
-    itemLogout.hidden = false;
-    itemLogin.hidden = true;
-    itemRegistro.hidden = true;
+    itemBienvenida.style.display = "block";
+    itemLogout.style.display = "block";
+    itemLogin.style.display = "none";
+    itemRegistro.style.display = "none";
 }

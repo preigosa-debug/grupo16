@@ -29,7 +29,7 @@ let mensajeError = document.querySelector("#error-login");
 formulario.addEventListener("submit", function (e) {
     mensajeError.innerText = "";
 
-    if (inputEmail.value.trim() === "") {
+    if (inputEmail.value === "") {
         e.preventDefault();
         mensajeError.innerText = "El campo email es obligatorio";
     } else if (inputPassword.value === "") {
@@ -39,6 +39,6 @@ formulario.addEventListener("submit", function (e) {
         e.preventDefault();
         mensajeError.innerText = "La contraseña debe tener al menos 6 caracteres";
     } else {
-        localStorage.setItem("email", inputEmail.value.trim());
+        localStorage.setItem("email", inputEmail.value);
     }
 });
