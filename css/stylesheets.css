@@ -260,12 +260,7 @@ footer li{
     text-align: left;
 }
 
-.resutladossearch{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: flex-start;  
-}
+
 .precio{
     color: black;
     font-weight: bold;
