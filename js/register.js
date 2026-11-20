@@ -42,5 +42,8 @@ formulario.addEventListener("submit", function (e) {
     } else if (inputPassword.value !== inputConfirmar.value) {
         e.preventDefault();
         mensajeError.innerText = "Las contraseñas no coinciden";
+    } else if (!inputTerminos.checked) {
+        e.preventDefault();
+        mensajeError.innerText = "Debes aceptar los terminos y condiciones";
     }
   })

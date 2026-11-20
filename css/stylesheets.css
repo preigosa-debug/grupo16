@@ -334,6 +334,9 @@ body{
     background-color: white;
 }
 
+.headernav span {
+    color: white;
+}
 /* CELULAR */
 
 @media (max-width: 480px) {
